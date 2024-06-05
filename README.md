@@ -21,14 +21,21 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/sudan94/fastapi-postgres-docker.git
    cd fastapi-postgres-docker
     ```
-
-2. Build and run the Docker containers:
+2. Update the .env file with your database credentials:
+    ```js
+    POSTGRES_USER=your_username
+    POSTGRES_PASSWORD=your_password
+    POSTGRES_SERVER=your_postgres_servername
+    POSTGRES_PORT=your_postgres_running_port
+    POSTGRES_DB=your_database
+    ```
+3. Build and run the Docker containers:
 
     ```bash
     docker-compose up -d
     ```
 
-Usage
+### Usage
 After running ```docker-compose up -d```, your FastAPI application will be accessible via NGINX at http://localhost:8080/fastapi/docs.
 
 ---
