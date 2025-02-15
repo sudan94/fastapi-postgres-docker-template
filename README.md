@@ -19,7 +19,7 @@ Ensure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/sudan94/fastapi-postgres-docker-template.git
-   cd fastapi-postgres-docker
+   cd fastapi-postgres-docker-template
     ```
 2. Update the .env file with your database credentials:
     ```js
